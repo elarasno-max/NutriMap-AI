@@ -1,0 +1,7 @@
+Region,Province,District,Latitude,Longitude,Survey_Year,Soil_Iron,Soil_Iodine,Soil_pH,Water_Iron,Water_Iodine,Water_Fluoride,Dietary_Iron_Intake,Dietary_Diversity,Iodized_Salt_Access,Anemia_Prevalence,Iron_Deficiency_Prevalence,Median_Urinary_Iodine,Anemia_Risk,Iodine_Risk,Population_Group,Measurement_Date,Data_Source
+Demo Region A,Punjab,DEMO-NOT-A-DISTRICT,31.5,73.0,2024,18.2,,7.4,0.12,,0.4,14.0,4.2,62,28,22,115,,,Synthetic demonstration population,2024-06-01,SYNTHETIC_FOR_SOFTWARE_TESTING_ONLY
+Demo Region B,Sindh,DEMO-NOT-A-DISTRICT,25.5,68.5,2024,14.1,,8.0,0.18,,0.7,11.0,3.8,48,35,29,90,,,Synthetic demonstration population,2024-06-01,SYNTHETIC_FOR_SOFTWARE_TESTING_ONLY
+Demo Region C,Khyber Pakhtunkhwa,DEMO-NOT-A-DISTRICT,34.0,71.5,2024,21.0,,7.1,0.09,,0.3,18.0,5.5,81,18,14,145,,,Synthetic demonstration population,2024-06-01,SYNTHETIC_FOR_SOFTWARE_TESTING_ONLY
+Demo Region D,Balochistan,DEMO-NOT-A-DISTRICT,29.5,66.5,2024,12.0,,8.2,0.22,,0.8,9.0,3.1,35,42,37,75,,,Synthetic demonstration population,2024-06-01,SYNTHETIC_FOR_SOFTWARE_TESTING_ONLY
+Demo Region E,Gilgit-Baltistan,DEMO-NOT-A-DISTRICT,36.0,74.0,2024,19.0,,7.0,0.07,,0.2,20.0,6.1,88,15,11,160,,,Synthetic demonstration population,2024-06-01,SYNTHETIC_FOR_SOFTWARE_TESTING_ONLY
+Demo Region F,Islamabad Capital Territory,DEMO-NOT-A-DISTRICT,33.7,73.1,2024,17.0,,7.5,0.11,,0.3,16.0,5.0,75,23,18,125,,,Synthetic demonstration population,2024-06-01,SYNTHETIC_FOR_SOFTWARE_TESTING_ONLY
