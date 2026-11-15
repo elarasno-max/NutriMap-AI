@@ -106,35 +106,13 @@ Tests cover demo loading, required-column validation, duplicate handling, numeri
 - Data source links are discovery/documentation starting points; verify each dataset's latest release, licence and variable dictionary.
 - Recommendations are population-level planning suggestions, not individual treatment advice.
 
-## 11. Hackathon pitch (about 2 minutes)
+## 11. Hackathon pitch 
 
 “Micronutrient risks are not distributed evenly, but local decision-makers often face fragmented environmental, dietary and nutrition data. NutriMap AI brings documented regional indicators into one transparent planning dashboard. A user can upload a CSV, inspect data quality, explore available nutrition and environmental indicators, and view regional planning-priority markers on an interactive map. The system separates anemia-related and iodine-related indicators, explains which available inputs contribute to each score, and reports when evidence is insufficient. It can suggest population-level next steps such as reviewing iodized-salt access, strengthening nutrition awareness, arranging confirmatory testing, or coordinating screening with qualified public-health teams. Where enough genuine labelled observations exist, the platform can train baseline Decision Tree and Random Forest models and show their evaluation; otherwise, machine learning remains disabled rather than inventing labels. Our demo dataset is synthetic, so it demonstrates the software—not Pakistan's actual district health status. NutriMap AI is a decision-support prototype designed around transparency, geographic honesty and responsible data use.”
 
-## 12. Six-slide presentation outline
-
-1. **Problem:** Fragmented regional nutrition, environmental and dietary information.
-2. **Solution:** NutriMap AI workflow and target users (rural health coordinators, agriculture officers, planners).
-3. **Data & responsibility:** Sources, metadata, geographic resolution, synthetic demo disclosure.
-4. **How it works:** Validation → EDA → transparent scoring → optional ML → recommendations.
-5. **Live demo:** Upload, filter, map, regional explorer, PDF export.
-6. **Impact & roadmap:** Official data partnerships, verified boundaries, expert-reviewed scoring, spatial/temporal validation.
 
 ## 13. One-page project summary
 
 **NutriMap AI** is a regional nutrition-intelligence dashboard that organizes available environmental, dietary and population-health measurements to support public-health planning. It provides conservative dataset validation, transparent configurable anemia/iron and iodine planning scores, interactive point maps, exploratory analysis, indicator-aware recommendations and exportable regional reports. Optional supervised ML is gated on genuine labelled data and minimum sample checks. The application begins with a synthetic dataset solely for software demonstration and is designed to accept verified Pakistan datasets at their supported geographic resolution. It does not diagnose individuals, infer district statistics from provincial averages, or treat soil/water measurements as proof of human deficiency.
 
-## 14. Likely judge questions
 
-**Q: Is the demo data real?** A: No. It is synthetic and labelled as such; it validates the user experience and pipeline only.
-
-**Q: Why not train the model immediately?** A: A supervised model needs genuine outcome labels. Training on invented labels or labels derived from our own score would create circular, misleading performance.
-
-**Q: Does low soil iron mean people are iron deficient?** A: No. Soil and water are contextual environmental measures, not direct human biomarkers.
-
-**Q: Are risk scores medical probabilities?** A: No. They are transparent, configurable planning-priority indicators with provisional weights and display scales.
-
-**Q: What happens when data are missing?** A: Missing indicators are omitted; the score reflects only available eligible inputs and may return “Insufficient data.”
-
-**Q: Why use point markers rather than district polygons?** A: We do not bundle an authoritative boundary file or invent boundaries. Markers use supplied coordinates; a verified GeoJSON can be added later.
-
-**Q: How will you validate the system?** A: Validate source data and units, obtain expert review of scoring, use spatial/temporal holdouts and external validation, and assess calibration and subgroup performance before any operational use.
